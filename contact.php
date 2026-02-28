@@ -304,8 +304,11 @@ Email Us : hnhphysio@gmail.com     <strong class="tel-new">Tel : +91-(0)497-2700
 </div>
 
 <div class="copyright">
-© 2020 Healthy&Happy Wellness Group <br>
- Powered By : <a class="tnm" href="https://keralakonnect.com/" target="_blank">KeralaKonnect</a>	
+  © <span id="year"></span> Healthy&Happy Wellness Group <br>
+  Powered By : 
+  <a class="tnm" href="https://keralakonnect.com/" target="_blank">
+    KeralaKonnect
+  </a>	
 </div>
 
 <div id="stop" class="scrollTop">
@@ -459,6 +462,7 @@ $(document).ready(function(){
     return false;
 });
 });
+  document.getElementById("year").textContent = new Date().getFullYear();
 </script>
 </body>
 </html>

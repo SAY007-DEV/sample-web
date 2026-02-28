@@ -690,15 +690,12 @@
             </div>
 
             <div class="copyright">
-              © 2020 Healthy&Happy Wellness Group <br />
-              Powered By :
-              <a
-                class="tnm"
-                href="https://keralakonnect.com/"
-                target="_blank"
-                >KeralaKonnect</a
-              >
-            </div>
+  © <span id="year"></span> Healthy&Happy Wellness Group <br>
+  Powered By : 
+  <a class="tnm" href="https://keralakonnect.com/" target="_blank">
+    KeralaKonnect
+  </a>	
+</div>
 
             <div id="stop" class="scrollTop">
               <span
@@ -802,6 +799,7 @@
       function closeNav() {
         document.getElementById("myNav").style.height = "0%";
       }
+        document.getElementById("year").textContent = new Date().getFullYear();
     </script>
   </body>
 </html>
