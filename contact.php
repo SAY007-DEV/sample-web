@@ -284,7 +284,7 @@ Near Fathima Hospital, Kerala. 670002</p>
 <div class="address">
 <h1>Payyanur Office : </h1>
 <p>Ground Floor, Sredha Hospital Building,<br>
-Near Govt Hospital, Annur Road, Kerala 670307</p>
+Near Govt Hospital, Kannur Road, Kerala 670307</p>
 </div>
 
 </div>
@@ -305,7 +305,7 @@ Email Us : hnhphysio@gmail.com     <strong class="tel-new">Tel : +91-(0)497-2700
 
 <div class="copyright">
 © 2020 Healthy&Happy Wellness Group <br>
- Powered By : <a class="tnm" href="https://tnmonlinesolutions.com/" target="_blank">TNM Online Solutions</a>	
+ Powered By : <a class="tnm" href="https://keralakonnect.com/" target="_blank">KeralaKonnect</a>	
 </div>
 
 <div id="stop" class="scrollTop">
