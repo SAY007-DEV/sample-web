@@ -44,6 +44,30 @@
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <link rel="stylesheet" href="css/flexslider.css" />
+
+    <style> /* Gallery Section */
+.abt-intro {
+  padding: 60px 0;
+}
+
+.gallery-item {
+  position: relative;
+  width: 100%;
+  height: 260px;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.gallery-item:hover img {
+  transform: scale(1.08);
+}</style>
   </head>
   <body>
     <!-- TOP HEADER START -->
@@ -158,471 +182,193 @@
     </section>
     <!-- slider -->
 
-    <section class="abt-intro">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4">
-            <div class="ih-item square effect6 clearfix">
-              <a
-                href="images/c1.jpeg"
-                class="fresco"
-                data-fresco-group="example6"
-                data-fresco-caption=""
-              >
-                <div class="img">
-                  <img class="img-fluid productimg" src="images/c1.jpeg" />
-                </div>
-                <div class="info">
-                  <div class="client_section clearfix">
-                    <h1 class="g-icons"></h1>
-                  </div>
-                </div>
-              </a>
-            </div>
+<section class="abt-intro">
+  <div class="container">
+    <div class="row">
+
+      <!-- Image 1 -->
+      <div class="col-lg-4 col-md-6 mb-4">
+        <a href="images/c1.jpeg" class="fresco" data-fresco-group="gallery">
+          <div class="gallery-item">
+            <img src="images/c1.jpeg" class="img-fluid" alt="">
           </div>
-
-          <div class="col-md-4">
-            <div class="ih-item square effect6 clearfix">
-              <a
-                href="images/e2.jpg"
-                class="fresco"
-                data-fresco-group="example6"
-                data-fresco-caption=""
-              >
-                <div class="img">
-                  <img class="img-fluid productimg" src="images/e2.jpg" />
-                </div>
-                <div class="info">
-                  <div class="client_section clearfix">
-                    <h1 class="g-icons"></h1>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
-
-          <div class="col-md-4">
-            <div class="ih-item square effect6 clearfix">
-              <a
-                href="images/c2.jpeg"
-                class="fresco"
-                data-fresco-group="example6"
-                data-fresco-caption=""
-              >
-                <div class="img">
-                  <img class="img-fluid productimg" src="images/c2.jpeg" />
-                </div>
-                <div class="info">
-                  <div class="client_section clearfix">
-                    <h1 class="g-icons"></h1>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
-
-          <div class="col-md-6">
-            <div class="ih-item square effect6 clearfix">
-              <a
-                href="images/c3.jpeg"
-                class="fresco"
-                data-fresco-group="example6"
-                data-fresco-caption=""
-              >
-                <div class="img">
-                  <img class="img-fluid productimg" src="images/c3.jpeg" />
-                </div>
-                <div class="info">
-                  <div class="client_section clearfix">
-                    <h1 class="g-icons"></h1>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
-
-          <div class="col-md-6">
-            <div class="ih-item square effect6 clearfix">
-              <a
-                href="images/e6.jpg"
-                class="fresco"
-                data-fresco-group="example6"
-                data-fresco-caption=""
-              >
-                <div class="img">
-                  <img class="img-fluid productimg" src="images/e6.jpg" />
-                </div>
-                <div class="info">
-                  <div class="client_section clearfix">
-                    <h1 class="g-icons"></h1>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
-
-          <div class="col-md-4">
-            <div class="ih-item square effect6 clearfix">
-              <a
-                href="images/e7.jpg"
-                class="fresco"
-                data-fresco-group="example6"
-                data-fresco-caption=""
-              >
-                <div class="img">
-                  <img class="img-fluid productimg" src="images/e7.jpg" />
-                </div>
-                <div class="info">
-                  <div class="client_section clearfix">
-                    <h1 class="g-icons"></h1>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
-
-          <div class="col-md-4">
-            <div class="ih-item square effect6 clearfix">
-              <a
-                href="images/e8.jpg"
-                class="fresco"
-                data-fresco-group="example6"
-                data-fresco-caption=""
-              >
-                <div class="img">
-                  <img class="img-fluid productimg" src="images/e8.jpg" />
-                </div>
-                <div class="info">
-                  <div class="client_section clearfix">
-                    <h1 class="g-icons"></h1>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
-
-          <div class="col-md-4">
-            <div class="ih-item square effect6 clearfix">
-              <a
-                href="images/e3.jpg"
-                class="fresco"
-                data-fresco-group="example6"
-                data-fresco-caption=""
-              >
-                <div class="img">
-                  <img class="img-fluid productimg" src="images/e3.jpg" />
-                </div>
-                <div class="info">
-                  <div class="client_section clearfix">
-                    <h1 class="g-icons"></h1>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
-
-          <div class="col-md-6">
-            <div class="ih-item square effect6 clearfix">
-              <a
-                href="images/c5.jpeg"
-                class="fresco"
-                data-fresco-group="example6"
-                data-fresco-caption=""
-              >
-                <div class="img">
-                  <img class="img-fluid productimg" src="images/c5.jpeg" />
-                </div>
-                <div class="info">
-                  <div class="client_section clearfix">
-                    <h1 class="g-icons"></h1>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
-
-          <!-- <div class="col-md-6">
-            <div class="ih-item square effect6 clearfix">
-              <a
-                href=""
-                class="fresco"
-                data-fresco-group="example6"
-                data-fresco-caption=""
-              >
-                <div class="img">
-                  <img class="img-fluid productimg" src="" />
-                </div>
-                <div class="info">
-                  <div class="client_section clearfix">
-                    <h1 class="g-icons"></h1>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div> -->
-
-          <!-- <div class="col-md-4">
-            <div class="ih-item square effect6 clearfix">
-              <a
-                href=""
-                class="fresco"
-                data-fresco-group="example6"
-                data-fresco-caption=""
-              >
-                <div class="img">
-                  <img class="img-fluid productimg" src="" />
-                </div>
-                <div class="info">
-                  <div class="client_section clearfix">
-                    <h1 class="g-icons"></h1>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div> -->
-
-          <div class="col-md-4">
-            <div class="ih-item square effect6 clearfix">
-              <a
-                href="images/e12.jpg"
-                class="fresco"
-                data-fresco-group="example6"
-                data-fresco-caption=""
-              >
-                <div class="img">
-                  <img class="img-fluid productimg" src="images/e12.jpg" />
-                </div>
-                <div class="info">
-                  <div class="client_section clearfix">
-                    <h1 class="g-icons"></h1>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
-
-          <!-- <div class="col-md-4">
-            <div class="ih-item square effect6 clearfix">
-              <a
-                href=""
-                class="fresco"
-                data-fresco-group="example6"
-                data-fresco-caption=""
-              >
-                <div class="img">
-                  <img class="img-fluid productimg" src=" />
-                </div>
-                <div class="info">
-                  <div class="client_section clearfix">
-                    <h1 class="g-icons"></h1>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div> -->
-
-          <div class="col-md-6">
-            <div class="ih-item square effect6 clearfix">
-              <a
-                href="images/e14.jpg"
-                class="fresco"
-                data-fresco-group="example6"
-                data-fresco-caption=""
-              >
-                <div class="img">
-                  <img class="img-fluid productimg" src="images/e14.jpg" />
-                </div>
-                <div class="info">
-                  <div class="client_section clearfix">
-                    <h1 class="g-icons"></h1>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
-
-          <div class="col-md-6">
-            <div class="ih-item square effect6 clearfix">
-              <a
-                href="images/e015.jpg"
-                class="fresco"
-                data-fresco-group="example6"
-                data-fresco-caption=""
-              >
-                <div class="img">
-                  <img class="img-fluid productimg" src="images/e015.jpg" />
-                </div>
-                <div class="info">
-                  <div class="client_section clearfix">
-                    <h1 class="g-icons"></h1>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
-
-          <div class="col-md-4">
-            <div class="ih-item square effect6 clearfix">
-              <a
-                href="images/e16.jpg"
-                class="fresco"
-                data-fresco-group="example6"
-                data-fresco-caption=""
-              >
-                <div class="img">
-                  <img class="img-fluid productimg" src="images/e16.jpg" />
-                </div>
-                <div class="info">
-                  <div class="client_section clearfix">
-                    <h1 class="g-icons"></h1>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
-
-          <div class="col-md-4">
-            <div class="ih-item square effect6 clearfix">
-              <a
-                href="images/e17.jpg"
-                class="fresco"
-                data-fresco-group="example6"
-                data-fresco-caption=""
-              >
-                <div class="img">
-                  <img class="img-fluid productimg" src="images/et-1.jpg" />
-                </div>
-                <div class="info">
-                  <div class="client_section clearfix">
-                    <h1 class="g-icons"></h1>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
-
-          <div class="col-md-4">
-            <div class="ih-item square effect6 clearfix">
-              <a
-                href="images/e18.jpg"
-                class="fresco"
-                data-fresco-group="example6"
-                data-fresco-caption=""
-              >
-                <div class="img">
-                  <img class="img-fluid productimg" src="images/e18.jpg" />
-                </div>
-                <div class="info">
-                  <div class="client_section clearfix">
-                    <h1 class="g-icons"></h1>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
-
-          <div class="col-md-6">
-            <div class="ih-item square effect6 clearfix">
-              <a
-                href="images/e011.jpg"
-                class="fresco"
-                data-fresco-group="example6"
-                data-fresco-caption=""
-              >
-                <div class="img">
-                  <img class="img-fluid productimg" src="images/e011.jpg" />
-                </div>
-                <div class="info">
-                  <div class="client_section clearfix">
-                    <h1 class="g-icons"></h1>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
-
-          <div class="col-md-6">
-            <div class="ih-item square effect6 clearfix">
-              <a
-                href="images/e012.jpg"
-                class="fresco"
-                data-fresco-group="example6"
-                data-fresco-caption=""
-              >
-                <div class="img">
-                  <img class="img-fluid productimg" src="images/e012.jpg" />
-                </div>
-                <div class="info">
-                  <div class="client_section clearfix">
-                    <h1 class="g-icons"></h1>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
-
-          <div class="col-md-4">
-            <div class="ih-item square effect6 clearfix">
-              <a
-                href="images/et-2.jpg"
-                class="fresco"
-                data-fresco-group="example6"
-                data-fresco-caption=""
-              >
-                <div class="img">
-                  <img class="img-fluid productimg" src="images/e21.jpg" />
-                </div>
-                <div class="info">
-                  <div class="client_section clearfix">
-                    <h1 class="g-icons"></h1>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
-
-          <div class="col-md-4">
-            <div class="ih-item square effect6 clearfix">
-              <a
-                href="images/e013.jpg"
-                class="fresco"
-                data-fresco-group="example6"
-                data-fresco-caption=""
-              >
-                <div class="img">
-                  <img class="img-fluid productimg" src="images/e013.jpg" />
-                </div>
-                <div class="info">
-                  <div class="client_section clearfix">
-                    <h1 class="g-icons"></h1>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
-
-          <div class="col-md-4">
-            <div class="ih-item square effect6 clearfix">
-              <a
-                href="images/e014.jpg"
-                class="fresco"
-                data-fresco-group="example6"
-                data-fresco-caption=""
-              >
-                <div class="img">
-                  <img class="img-fluid productimg" src="images/e014.jpg" />
-                </div>
-                <div class="info">
-                  <div class="client_section clearfix">
-                    <h1 class="g-icons"></h1>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
-        </div>
+        </a>
       </div>
-    </section>
+
+      <!-- Image 2 -->
+      <div class="col-lg-4 col-md-6 mb-4">
+        <a href="images/e2.jpg" class="fresco" data-fresco-group="gallery">
+          <div class="gallery-item">
+            <img src="images/e2.jpg" class="img-fluid" alt="">
+          </div>
+        </a>
+      </div>
+
+      <!-- Image 3 -->
+      <div class="col-lg-4 col-md-6 mb-4">
+        <a href="images/c2.jpeg" class="fresco" data-fresco-group="gallery">
+          <div class="gallery-item">
+            <img src="images/c2.jpeg" class="img-fluid" alt="">
+          </div>
+        </a>
+      </div>
+
+      <!-- Image 4 -->
+      <div class="col-lg-4 col-md-6 mb-4">
+        <a href="images/c3.jpeg" class="fresco" data-fresco-group="gallery">
+          <div class="gallery-item">
+            <img src="images/c3.jpeg" class="img-fluid" alt="">
+          </div>
+        </a>
+      </div>
+
+      <!-- Image 5 -->
+      <div class="col-lg-4 col-md-6 mb-4">
+        <a href="images/e6.jpg" class="fresco" data-fresco-group="gallery">
+          <div class="gallery-item">
+            <img src="images/e6.jpg" class="img-fluid" alt="">
+          </div>
+        </a>
+      </div>
+
+      <!-- Image 6 -->
+      <div class="col-lg-4 col-md-6 mb-4">
+        <a href="images/e7.jpg" class="fresco" data-fresco-group="gallery">
+          <div class="gallery-item">
+            <img src="images/e7.jpg" class="img-fluid" alt="">
+          </div>
+        </a>
+      </div>
+
+      <!-- Image 7 -->
+      <div class="col-lg-4 col-md-6 mb-4">
+        <a href="images/e8.jpg" class="fresco" data-fresco-group="gallery">
+          <div class="gallery-item">
+            <img src="images/e8.jpg" class="img-fluid" alt="">
+          </div>
+        </a>
+      </div>
+
+      <!-- Image 8 -->
+      <div class="col-lg-4 col-md-6 mb-4">
+        <a href="images/e3.jpg" class="fresco" data-fresco-group="gallery">
+          <div class="gallery-item">
+            <img src="images/e3.jpg" class="img-fluid" alt="">
+          </div>
+        </a>
+      </div>
+
+      <!-- Image 9 -->
+      <div class="col-lg-4 col-md-6 mb-4">
+        <a href="images/c5.jpeg" class="fresco" data-fresco-group="gallery">
+          <div class="gallery-item">
+            <img src="images/c5.jpeg" class="img-fluid" alt="">
+          </div>
+        </a>
+      </div>
+
+      <!-- Image 10 -->
+      <div class="col-lg-4 col-md-6 mb-4">
+        <a href="images/e12.jpg" class="fresco" data-fresco-group="gallery">
+          <div class="gallery-item">
+            <img src="images/e12.jpg" class="img-fluid" alt="">
+          </div>
+        </a>
+      </div>
+
+      <!-- Image 11 -->
+      <div class="col-lg-4 col-md-6 mb-4">
+        <a href="images/e14.jpg" class="fresco" data-fresco-group="gallery">
+          <div class="gallery-item">
+            <img src="images/e14.jpg" class="img-fluid" alt="">
+          </div>
+        </a>
+      </div>
+
+      <!-- Image 12 -->
+      <div class="col-lg-4 col-md-6 mb-4">
+        <a href="images/e015.jpg" class="fresco" data-fresco-group="gallery">
+          <div class="gallery-item">
+            <img src="images/e015.jpg" class="img-fluid" alt="">
+          </div>
+        </a>
+      </div>
+
+      <!-- Image 13 -->
+      <div class="col-lg-4 col-md-6 mb-4">
+        <a href="images/e16.jpg" class="fresco" data-fresco-group="gallery">
+          <div class="gallery-item">
+            <img src="images/e16.jpg" class="img-fluid" alt="">
+          </div>
+        </a>
+      </div>
+
+      <!-- Image 14 (Fixed mismatch) -->
+      <div class="col-lg-4 col-md-6 mb-4">
+        <a href="images/e17.jpg" class="fresco" data-fresco-group="gallery">
+          <div class="gallery-item">
+            <img src="images/e17.jpg" class="img-fluid" alt="">
+          </div>
+        </a>
+      </div>
+
+      <!-- Image 15 -->
+      <div class="col-lg-4 col-md-6 mb-4">
+        <a href="images/e18.jpg" class="fresco" data-fresco-group="gallery">
+          <div class="gallery-item">
+            <img src="images/e18.jpg" class="img-fluid" alt="">
+          </div>
+        </a>
+      </div>
+
+      <!-- Image 16 -->
+      <div class="col-lg-4 col-md-6 mb-4">
+        <a href="images/e011.jpg" class="fresco" data-fresco-group="gallery">
+          <div class="gallery-item">
+            <img src="images/e011.jpg" class="img-fluid" alt="">
+          </div>
+        </a>
+      </div>
+
+      <!-- Image 17 -->
+      <div class="col-lg-4 col-md-6 mb-4">
+        <a href="images/e012.jpg" class="fresco" data-fresco-group="gallery">
+          <div class="gallery-item">
+            <img src="images/e012.jpg" class="img-fluid" alt="">
+          </div>
+        </a>
+      </div>
+
+      <!-- Image 18 -->
+      <!-- <div class="col-lg-4 col-md-6 mb-4">
+        <a href="images/et-2.jpg" class="fresco" data-fresco-group="gallery">
+          <div class="gallery-item">
+            <img src="images/et-2.jpg" class="img-fluid" alt="">
+          </div>
+        </a>
+      </div> -->
+
+      <!-- Image 19 -->
+      <div class="col-lg-4 col-md-6 mb-4">
+        <a href="images/e013.jpg" class="fresco" data-fresco-group="gallery">
+          <div class="gallery-item">
+            <img src="images/e013.jpg" class="img-fluid" alt="">
+          </div>
+        </a>
+      </div>
+
+      <!-- Image 20 -->
+      <!-- <div class="col-lg-4 col-md-6 mb-4">
+        <a href="images/e014.jpg" class="fresco" data-fresco-group="gallery">
+          <div class="gallery-item">
+            <img src="images/e014.jpg" class="img-fluid" alt="">
+          </div>
+        </a>
+      </div> -->
+
+    </div>
+  </div>
+</section>
 
     <section class="footer">
       <div class="container">
